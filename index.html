@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TEM UNIK</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<div id="loading_mulai" style="
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(255,255,255,0.8);
+z-index:9999;
+justify-content:center;
+align-items:center;
+font-size:22px;
+font-weight:bold;
+">
+    ⏳ Memeriksa data Mahasiswa...
+</div>
+
+<<div id="nim_sama" class="modal">
+
+    <div class="modal-content">
+
+        <h3>Anda sudah mengerjakan TRY OUT ini!</h3>
+
+        <button onclick="kembali()">OK</button>
+
+    </div>
+
+</div>
+
+<body>
+
+<div class="container">
+
+    <div class="judul">
+    <h1>TRY OUT 2</h1>
+
+    <h1>UJI KOMPETENSI</h1>
+
+    <h2>Teknologi Elektro-Medis</h2>
+    <h2>FT UNIK</h2>
+
+    </div>
+    <hr>
+
+    <label>Nama</label>
+
+    <input type="text" id="nama">
+
+    <label>NIM</label>
+
+    <input type="text" id="nim">
+
+    <hr>
+
+    <h3>PERHATIAN!</h3>
+    <p>- Durasi pengerjaan : 60 Menit</p>
+    <p>- Jumlah soal : 60 Soal</p>
+    <p>- Pastikan koneksi internet anda lancar</p>
+    <p>- Saat mengerjakan soal, jangan kembali ke halaman awal atau mengeluarkan/menutup halaman soal.</p>
+    <p>- setiap Nama dan NIM hanya bisa mengerjakan 1 kali. Jika anda keluar atau kembali ke halaman awal (identitas) jawaban anda akan otomatis terkirim dan anda sudah tidak bisa mengerjakan lagi.</p>
+    <p>- Apabila gambar belum muncul atau tidak bisa di scroll, cuku refresh pada halaman soal saja.</p>
+    <p>- Merefresh pada halaman soal tidak akan menghilangkan jawaban yang sudah dijawab. Asalkan tidak keluar dari halaman</p>
+
+    <button onclick="mulaiUjian()">
+    MULAI
+    </button>
+<script src="script.js"></script>
+</div>
+
+</body>
+
+</html>
