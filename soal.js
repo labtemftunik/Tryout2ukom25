@@ -190,7 +190,7 @@ async function koreksi(){
         nilai: nilai,
         benar: benar,
         salah: salah,
-        tanggal: new Date().toLocaleString(),
+        tanggal: new Date().toLocaleString()
 
     };
 
