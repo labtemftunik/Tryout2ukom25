@@ -191,9 +191,6 @@ async function koreksi(){
         benar: benar,
         salah: salah,
         tanggal: new Date().toLocaleString(),
-        kontribusi: localStorage.getItem("kontri"),
-        kontribusi_anggota: localStorage.getItem("kontri_anggota"),
-        nokontribusi_anggota: localStorage.getItem("nokontri_anggota"),
 
     };
 
